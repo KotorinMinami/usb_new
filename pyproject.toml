@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "usb-new"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+pyarrow = "^19.0.0"
+pyts = "^0.13.0"
+matplotlib = "^3.10.0"
+fastdtw = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
