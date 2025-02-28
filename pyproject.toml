@@ -8,10 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^2.2.3"
-pyarrow = "^19.0.0"
-pyts = "^0.13.0"
 matplotlib = "^3.10.0"
-fastdtw = "^0.3.4"
+click = "^8.1.8"
+pyyaml = "^6.0.2"
 
 
 [build-system]

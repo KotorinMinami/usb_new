@@ -1,0 +1,22 @@
+register:
+    divide_input_path: 'path/to/origin/csv'
+    divide_output_prefix: 'output_'
+    divide_filter: ["host", "USBMS", "64", "GET MAX LUN Request"]
+    load_file_pattern: 'output_{}.csv'
+    timestamp_pattern: 'SCSI: Read\(10\) LUN: 0x00 \(LBA: 0x[0-9a-f]{8}, Len: (\d+)\)'
+    draw_title: 'title'
+    draw_xlabel: 'x label'
+    draw_ylabel: 'y label'
+
+
+check:
+    divide_input_path: 'path/to/origin/csv'
+    divide_output_prefix: 'output_'
+    divide_filter: ["host", "USBMS", "64", "GET MAX LUN Request"]
+    load_file_pattern: 'output_{}.csv'
+    timestamp_pattern: 'SCSI: Read\(10\) LUN: 0x00 \(LBA: 0x[0-9a-f]{8}, Len: (\d+)\)'
+    draw_title: 'title'
+    draw_xlabel: 'x label'
+    draw_ylabel: 'y label'
+    finger: "the finger register get"
+    check_range: "the check range register get"

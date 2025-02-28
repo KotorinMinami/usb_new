@@ -53,6 +53,6 @@ def split_csv(input_file: str, output_prefix: str, filter_conditions: List[str])
 # Example usage:
 if __name__ == '__main__':
     input_file = '/home/kotori/Downloads/usb_new/chapter_6/test/Kingston_32GB_1.csv'
-    output_prefix = '/home/kotori/Downloads/usb_new/chapter_6/test//outputTest_'
+    output_prefix = '/home/kotori/Downloads/usb_new/chapter_6/test/outputTest_'
     filter_conditions = ["host", "2.60.0", "USBMS", "64", "GET MAX LUN Request"]
     split_csv(input_file, output_prefix, filter_conditions)
